@@ -1,4 +1,4 @@
-package com.chiara;
+package com.chiara.ui;
 
 /**
  * Hello world!

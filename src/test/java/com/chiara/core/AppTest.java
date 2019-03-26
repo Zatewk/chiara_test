@@ -1,4 +1,4 @@
-package com.chiara;
+package com.chiara.core;
 
 import static org.junit.Assert.assertTrue;
 

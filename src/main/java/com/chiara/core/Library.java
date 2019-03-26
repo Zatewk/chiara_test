@@ -13,6 +13,10 @@ public class Library extends MovieCollection {
         super(movies);
     }
 
+    public PlayList getDefaultPlaylist(){
+        return new PlayList (this.collection);
+    }
+
     public PlayList getPlaylistByPopularity() {
         PlayList playlist;
         Movie[] sortedMovies = this.collection.toArray(new Movie[this.collection.size()]);

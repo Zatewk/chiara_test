@@ -4,41 +4,46 @@ import com.chiara.core.datasources.ChiaraData;
 import com.chiara.core.datasources.iDataSource;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Set;
 
 public class Facade {
-    public static void main(String[] args){
-        Library library;
-        PlayList p1, p2, p3;
+    private Library library;
+    private HashMap<String, PlayList> playlists;
 
+    public Facade (){
+        iDataSource source = null;
         try {
-            iDataSource source = new ChiaraData("src/main/resources/movies-database-v2.json");
-            library = source.getLibrary();
-
-            System.out.println("TERMINADO");
-
-            p1 = library.getPlaylistByGenre("Drama");
-            p2 = library.getPlayListByActor("Hugh Jackman");
-            p3 = library.getPlaylistByPopularity();
-
-            System.out.println(p2.getCurrentElement().getInformation());
-            System.out.println(p2.getPreviousElement().getInformation());
-            System.out.println(p2.getPreviousElement().getInformation());
-            System.out.println(p2.getPreviousElement().getInformation());
-            System.out.println(p2.getPreviousElement().getInformation());
-            System.out.println(p2.getPreviousElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-            System.out.println(p2.getNextElement().getInformation());
-
-
-
+            source = new ChiaraData("src/main/resources/movies-database-v2.json");
         } catch (IOException e) {
             e.printStackTrace();
         }
+        this.library = source.getLibrary();
+        this.playlists = new HashMap<String, PlayList>();
+        this.playlists.put("Library", this.library.getDefaultPlaylist());
+    }
 
+    public Set<String> getAvailablePlaylists(){
+        return this.playlists.keySet();
+    }
+
+    public boolean existPlaylist (String key){
+        return this.playlists.containsKey(key);
+    }
+
+    public PlayList getPlaylist (String key){
+        return this.playlists.get(key);
+    }
+
+    public void createPlayListbyPopularity (String name){
+        this.playlists.put(name, this.library.getPlaylistByPopularity());
+    }
+
+    public void createPlayListbyActor (String name, String actor){
+        this.playlists.put(name, this.library.getPlayListByActor(actor));
+    }
+
+    public void createPlayListbyGenre (String name, String genre){
+        this.playlists.put(name, this.library.getPlaylistByGenre(genre));
     }
 }

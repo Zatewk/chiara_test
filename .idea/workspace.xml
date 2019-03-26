@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d2b1105-3157-4cfc-bcea-ceba9a359ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/MovieCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/ChiaraData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/ChiaraData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/iDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/iDataSource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="569">
+              <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1191#1192#0" expanded="true" />
@@ -87,8 +82,6 @@
                 <element signature="e#1336#1337#0" expanded="true" />
                 <element signature="e#1605#1606#0" expanded="true" />
                 <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="561">
+              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
@@ -113,15 +106,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
-                <element signature="method#getPlaylistByPopularity#0;class#Library#0" />
                 <element signature="method#mergeSort#1;class#Library#0" />
                 <element signature="method#leftHalf#0;class#Library#0" />
                 <element signature="method#rightHalf#0;class#Library#0" />
@@ -136,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="493">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,11 +173,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/PlayList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/iDataSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/MovieCollection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/datasources/ChiaraData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java" />
       </list>
     </option>
   </component>
@@ -417,8 +410,8 @@
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.13473769" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4987013" visible="true" weight="0.13473769" />
+      <window_info id="Structure" order="4" sideWeight="0.5012987" side_tool="true" weight="0.13473769" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039744" side_tool="true" weight="0.22291504" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49960256" weight="0.22291504" />
@@ -467,15 +460,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java</url>
-          <line>22</line>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -564,59 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="method#getPlaylistByPopularity#0;class#Library#0" />
-            <element signature="method#mergeSort#1;class#Library#0" />
-            <element signature="method#leftHalf#0;class#Library#0" />
-            <element signature="method#rightHalf#0;class#Library#0" />
-            <element signature="method#merge#1;class#Library#0" />
-            <element signature="method#getPlaylistByGenre#0;class#Library#0" />
-            <element signature="method#getPlayListByActor#0;class#Library#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/ui/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -641,10 +575,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="method#mergeSort#1;class#Library#0" />
+            <element signature="method#leftHalf#0;class#Library#0" />
+            <element signature="method#rightHalf#0;class#Library#0" />
+            <element signature="method#merge#1;class#Library#0" />
+            <element signature="method#getPlaylistByGenre#0;class#Library#0" />
+            <element signature="method#getPlayListByActor#0;class#Library#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/PlayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chiara/core/Facade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="493">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

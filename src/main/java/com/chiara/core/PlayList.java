@@ -26,12 +26,12 @@ public class PlayList extends MovieCollection{
     }
 
     public Movie getPreviousElement(){
-        this.index = this.index == 0 ? this.getMovieCount()-1 : this.index--;
+        this.index = this.index == 0 ? this.getMovieCount()-1 : --this.index;
         return this.getCurrentElement();
     }
 
     public Movie getNextElement (){
-        this.index = this.index == this.getMovieCount()-1 ? 0 : this.index++;
+        this.index = this.index == this.getMovieCount()-1 ? 0 : ++this.index;
         return this.getCurrentElement();
     }
 }

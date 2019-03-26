@@ -55,6 +55,20 @@ public class Movie {
     }
 
     public String getInformation (){
-        return "";
+        String genres = Arrays.toString(this.genres.toArray(new String[this.genres.size()]));
+        String cast = Arrays.toString(this.cast.toArray(new String[this.cast.size()]));
+
+        return  "Title: " + this.title + "\n" +
+                "Year: " + this.year + "\n" +
+                "Genres: " + genres + "\n" +
+                "Content Rating: " + this.contentRating + "\n" +
+                "AVG Rating: " + this.avgRating + "\n" +
+                "Duration: " + this.duration + "\n" +
+                "Release Date: " + this.releaseDate + "\n" +
+                "Original Title: " + this.originalTitle + "\n" +
+                "Storyline: " + this.storyline + "\n" +
+                "Cast: " + cast + "\n" +
+                "IMDB Rating: " + this.imdbRating + "\n" +
+                "Poster URL: " + this.posterURL + "\n";
     }
 }

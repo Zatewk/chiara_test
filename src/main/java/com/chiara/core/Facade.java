@@ -20,7 +20,22 @@ public class Facade {
             p2 = library.getPlayListByActor("Hugh Jackman");
             p3 = library.getPlaylistByPopularity();
 
-            System.out.println("TERMINADO");
+            System.out.println(p2.getCurrentElement().getInformation());
+            System.out.println(p2.getPreviousElement().getInformation());
+            System.out.println(p2.getPreviousElement().getInformation());
+            System.out.println(p2.getPreviousElement().getInformation());
+            System.out.println(p2.getPreviousElement().getInformation());
+            System.out.println(p2.getPreviousElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+            System.out.println(p2.getNextElement().getInformation());
+
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }

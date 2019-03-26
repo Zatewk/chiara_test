@@ -1,6 +1,7 @@
 package com.chiara.core.datasources;
 
-import com.chiara.core.PlayList;
+import com.chiara.core.Library;
+import com.chiara.core.Movie;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
@@ -23,13 +24,34 @@ public class ChiaraData implements iDataSource {
         f = new File(path);
         is = f.exists() ? new FileInputStream(path) : ChiaraData.class.getResourceAsStream(path);
         jsonTxt = IOUtils.toString(is);
-
-        System.out.println(jsonTxt);
         this.content = (JSONArray) JSONSerializer.toJSON(jsonTxt);
     }
 
     @Override
-    public PlayList getPlaylist() {
-        return null;
+    public Library getLibrary() {
+        JSONObject json;
+        Movie movie;
+        Library library;
+
+        library = new Library();
+        for (Object element: this.content){
+            json = (JSONObject) element;
+            movie = new Movie (
+                    json.getString("title"),
+                    json.getInt("year"),
+                    JSONArray.toCollection(json.getJSONArray("genres")),
+                    JSONArray.toCollection(json.getJSONArray("ratings")),
+                    json.getString("contentRating"),
+                    json.getString("duration"),
+                    json.getString("releaseDate"),
+                    json.getString("originalTitle"),
+                    json.getString("storyline"),
+                    JSONArray.toCollection(json.getJSONArray("actors")),
+                    json.getString("imdbRating"),
+                    json.getString("posterurl")
+            );
+            library.addMovie(movie);
+        }
+        return library;
     }
 }
